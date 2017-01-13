@@ -17,7 +17,7 @@
 		<Item Name="General" Type="Folder">
 			<Item Name="Check Log (SubVI).vi" Type="VI" URL="../Check Log (SubVI).vi"/>
 			<Item Name="Data Hyway TD.ctl" Type="VI" URL="../Data Hyway TD.ctl"/>
-			<Item Name="Persistance_Main.vi" Type="VI" URL="../Persistance_Main.vi"/>
+			<Item Name="Persistence_Main.vi" Type="VI" URL="../Persistence_Main.vi"/>
 			<Item Name="Que Atributes TD.ctl" Type="VI" URL="../Que Atributes TD.ctl"/>
 			<Item Name="Que Cluster TD.ctl" Type="VI" URL="../Que Cluster TD.ctl"/>
 			<Item Name="Que enum td.ctl" Type="VI" URL="../Que enum td.ctl"/>
@@ -44,9 +44,6 @@
 			<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;instrlib&gt;/maxon EPOS/EPOSLibrary.llb/Error Cluster From Error Code.vi"/>
-			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
