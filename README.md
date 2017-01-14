@@ -13,5 +13,5 @@ Figure 1 shows the layout:
 
 * A Labview VI running on a Windows laptop will be used to control the pitch-pack and to acquire/display/log the data. A ZeroMQ server running on the same laptop but outside Labview will provide the bridge between Labview and the vehicle.
 
-**Figure 1:**
+***Figure 1:***
 ![PL_fig1.png](https://bitbucket.org/repo/oG65MB/images/3999844056-PL_fig1.png)
