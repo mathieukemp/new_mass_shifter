@@ -1,6 +1,8 @@
 # Persistence Testbed: Labview Interface #
 
+**This repository contains a LabView VI for acquiring data from the LRAUV testbed.**
 
+## Overview: ##
 The Persistence Testbed will be used to develop advanced AUV health monitoring algorithms. It consists of a benchtop-mounted frame containing most of the Tethys AUV sensors and actuators, and a Labview interface to command the vehicle’s pitch-pack and to acquire, display, and log sensor data.
 
 Figure 1 shows the layout:
