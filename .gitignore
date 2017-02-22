@@ -12,3 +12,4 @@
 *.exe
 
 # Metadata
+DATA_LOGS/*
