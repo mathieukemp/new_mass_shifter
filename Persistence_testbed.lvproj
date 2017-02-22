@@ -10,7 +10,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="External" Type="Folder">
+		<Item Name="External Sensors" Type="Folder">
+			<Item Name="DAQ (SubVI).vi" Type="VI" URL="../DAQ (SubVI).vi"/>
 			<Item Name="External data TD.ctl" Type="VI" URL="../External data TD.ctl"/>
 			<Item Name="Log_external_data (SubVI).vi" Type="VI" URL="../Log_external_data (SubVI).vi"/>
 		</Item>
@@ -25,15 +26,14 @@
 			<Item Name="Start log.vi" Type="VI" URL="../Start log.vi"/>
 			<Item Name="Start log_path.vi" Type="VI" URL="../Start log_path.vi"/>
 		</Item>
-		<Item Name="Intrinsic" Type="Folder">
-			<Item Name="DAQ (SubVI).vi" Type="VI" URL="../DAQ (SubVI).vi"/>
+		<Item Name="Intrinsic Sensors" Type="Folder">
 			<Item Name="Intrinsic data TD.ctl" Type="VI" URL="../Intrinsic data TD.ctl"/>
 			<Item Name="Log_Intrinsic_Data (SubVI).vi" Type="VI" URL="../Log_Intrinsic_Data (SubVI).vi"/>
 			<Item Name="Read Intrinsic string(SubVI).vi" Type="VI" URL="../Read Intrinsic string(SubVI).vi"/>
 			<Item Name="ZMQ REQ (SubVI).vi" Type="VI" URL="../ZMQ REQ (SubVI).vi"/>
 			<Item Name="ZMQ SUBSCRIBE (SubVI).vi" Type="VI" URL="../ZMQ SUBSCRIBE (SubVI).vi"/>
 		</Item>
-		<Item Name="Vibration" Type="Folder">
+		<Item Name="Vibration Sensors" Type="Folder">
 			<Item Name="DAQ_Vibration (SubVI).vi" Type="VI" URL="../DAQ_Vibration (SubVI).vi"/>
 			<Item Name="Log_vibration_data (SubVI).vi" Type="VI" URL="../Log_vibration_data (SubVI).vi"/>
 			<Item Name="Plot_vib.vi" Type="VI" URL="../Plot_vib.vi"/>
