@@ -28,8 +28,6 @@
 		</Item>
 		<Item Name="Intrinsic Sensors" Type="Folder">
 			<Item Name="Intrinsic data TD.ctl" Type="VI" URL="../Intrinsic data TD.ctl"/>
-			<Item Name="Log_Intrinsic_Data (SubVI).vi" Type="VI" URL="../Log_Intrinsic_Data (SubVI).vi"/>
-			<Item Name="Read Intrinsic string(SubVI).vi" Type="VI" URL="../Read Intrinsic string(SubVI).vi"/>
 			<Item Name="ZMQ SUBSCRIBE (SubVI).vi" Type="VI" URL="../ZMQ SUBSCRIBE (SubVI).vi"/>
 		</Item>
 		<Item Name="Motor Control" Type="Folder">
@@ -118,6 +116,7 @@
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
 			</Item>
+			<Item Name="Log_Intrinsic_Data (SubVI).vi" Type="VI" URL="../Log_Intrinsic_Data (SubVI).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
