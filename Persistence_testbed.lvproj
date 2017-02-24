@@ -30,8 +30,10 @@
 			<Item Name="Intrinsic data TD.ctl" Type="VI" URL="../Intrinsic data TD.ctl"/>
 			<Item Name="Log_Intrinsic_Data (SubVI).vi" Type="VI" URL="../Log_Intrinsic_Data (SubVI).vi"/>
 			<Item Name="Read Intrinsic string(SubVI).vi" Type="VI" URL="../Read Intrinsic string(SubVI).vi"/>
-			<Item Name="ZMQ REQ (SubVI).vi" Type="VI" URL="../ZMQ REQ (SubVI).vi"/>
 			<Item Name="ZMQ SUBSCRIBE (SubVI).vi" Type="VI" URL="../ZMQ SUBSCRIBE (SubVI).vi"/>
+		</Item>
+		<Item Name="Motor Control" Type="Folder">
+			<Item Name="ZMQ REQ (SubVI).vi" Type="VI" URL="../ZMQ REQ (SubVI).vi"/>
 		</Item>
 		<Item Name="Vibration Sensors" Type="Folder">
 			<Item Name="DAQ_Vibration (SubVI).vi" Type="VI" URL="../DAQ_Vibration (SubVI).vi"/>
@@ -46,6 +48,7 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
 				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
@@ -107,6 +110,7 @@
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
