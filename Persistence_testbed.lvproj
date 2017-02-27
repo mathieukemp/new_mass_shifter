@@ -11,13 +11,12 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="External Sensors" Type="Folder">
-			<Item Name="DAQ (SubVI).vi" Type="VI" URL="../DAQ (SubVI).vi"/>
 			<Item Name="External data TD.ctl" Type="VI" URL="../External data TD.ctl"/>
-			<Item Name="Log_external_data (SubVI).vi" Type="VI" URL="../Log_external_data (SubVI).vi"/>
+			<Item Name="External Sensors.vi" Type="VI" URL="../External Sensors.vi"/>
+			<Item Name="Log External Data.vi" Type="VI" URL="../Log External Data.vi"/>
 		</Item>
 		<Item Name="General" Type="Folder">
-			<Item Name="Check Log (SubVI).vi" Type="VI" URL="../Check Log (SubVI).vi"/>
-			<Item Name="Data Hyway TD.ctl" Type="VI" URL="../Data Hyway TD.ctl"/>
+			<Item Name="Data Highway TD.ctl" Type="VI" URL="../Data Highway TD.ctl"/>
 			<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 			<Item Name="Que Attributes TD.ctl" Type="VI" URL="../Que Attributes TD.ctl"/>
 			<Item Name="Que Cluster TD.ctl" Type="VI" URL="../Que Cluster TD.ctl"/>
@@ -28,16 +27,16 @@
 		</Item>
 		<Item Name="Intrinsic Sensors" Type="Folder">
 			<Item Name="Intrinsic data TD.ctl" Type="VI" URL="../Intrinsic data TD.ctl"/>
-			<Item Name="ZMQ SUBSCRIBE (SubVI).vi" Type="VI" URL="../ZMQ SUBSCRIBE (SubVI).vi"/>
+			<Item Name="Intrinsic Sensors.vi" Type="VI" URL="../Intrinsic Sensors.vi"/>
 		</Item>
-		<Item Name="Motor Control" Type="Folder">
-			<Item Name="ZMQ REQ (SubVI).vi" Type="VI" URL="../ZMQ REQ (SubVI).vi"/>
+		<Item Name="Motor Command" Type="Folder">
+			<Item Name="Motor Command.vi" Type="VI" URL="../Motor Command.vi"/>
 		</Item>
 		<Item Name="Vibration Sensors" Type="Folder">
-			<Item Name="DAQ_Vibration (SubVI).vi" Type="VI" URL="../DAQ_Vibration (SubVI).vi"/>
-			<Item Name="Log_vibration_data (SubVI).vi" Type="VI" URL="../Log_vibration_data (SubVI).vi"/>
-			<Item Name="Plot_vib.vi" Type="VI" URL="../Plot_vib.vi"/>
+			<Item Name="Log Vibration Data.vi" Type="VI" URL="../Log Vibration Data.vi"/>
+			<Item Name="Plot Vibration.vi" Type="VI" URL="../Plot Vibration.vi"/>
 			<Item Name="Vibration data TD.ctl" Type="VI" URL="../Vibration data TD.ctl"/>
+			<Item Name="Vibration Sensors.vi" Type="VI" URL="../Vibration Sensors.vi"/>
 		</Item>
 		<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
@@ -116,7 +115,6 @@
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
 			</Item>
-			<Item Name="Log_Intrinsic_Data (SubVI).vi" Type="VI" URL="../Log_Intrinsic_Data (SubVI).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
