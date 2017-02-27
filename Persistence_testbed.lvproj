@@ -11,22 +11,18 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="External Sensors" Type="Folder">
-			<Item Name="External data TD.ctl" Type="VI" URL="../External data TD.ctl"/>
+			<Item Name="External Data TD.ctl" Type="VI" URL="../External Data TD.ctl"/>
 			<Item Name="External Sensors.vi" Type="VI" URL="../External Sensors.vi"/>
 			<Item Name="Log External Data.vi" Type="VI" URL="../Log External Data.vi"/>
 		</Item>
 		<Item Name="General" Type="Folder">
 			<Item Name="Data Highway TD.ctl" Type="VI" URL="../Data Highway TD.ctl"/>
 			<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-			<Item Name="Que Attributes TD.ctl" Type="VI" URL="../Que Attributes TD.ctl"/>
-			<Item Name="Que Cluster TD.ctl" Type="VI" URL="../Que Cluster TD.ctl"/>
-			<Item Name="Que enum td.ctl" Type="VI" URL="../Que enum td.ctl"/>
-			<Item Name="Que Reference.vi" Type="VI" URL="../Que Reference.vi"/>
-			<Item Name="Start log.vi" Type="VI" URL="../Start log.vi"/>
-			<Item Name="Start log_path.vi" Type="VI" URL="../Start log_path.vi"/>
+			<Item Name="Queue Attributes TD.ctl" Type="VI" URL="../Queue Attributes TD.ctl"/>
+			<Item Name="Queue Cluster TD.ctl" Type="VI" URL="../Queue Cluster TD.ctl"/>
+			<Item Name="Queue Reference.vi" Type="VI" URL="../Queue Reference.vi"/>
 		</Item>
 		<Item Name="Intrinsic Sensors" Type="Folder">
-			<Item Name="Intrinsic data TD.ctl" Type="VI" URL="../Intrinsic data TD.ctl"/>
 			<Item Name="Intrinsic Sensors.vi" Type="VI" URL="../Intrinsic Sensors.vi"/>
 		</Item>
 		<Item Name="Motor Command" Type="Folder">
@@ -35,7 +31,6 @@
 		<Item Name="Vibration Sensors" Type="Folder">
 			<Item Name="Log Vibration Data.vi" Type="VI" URL="../Log Vibration Data.vi"/>
 			<Item Name="Plot Vibration.vi" Type="VI" URL="../Plot Vibration.vi"/>
-			<Item Name="Vibration data TD.ctl" Type="VI" URL="../Vibration data TD.ctl"/>
 			<Item Name="Vibration Sensors.vi" Type="VI" URL="../Vibration Sensors.vi"/>
 		</Item>
 		<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
@@ -115,6 +110,11 @@
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
 			</Item>
+			<Item Name="Intrinsic Data TD.ctl" Type="VI" URL="../Intrinsic Data TD.ctl"/>
+			<Item Name="Que Enum td.ctl" Type="VI" URL="../Que Enum td.ctl"/>
+			<Item Name="Start Log.vi" Type="VI" URL="../Start Log.vi"/>
+			<Item Name="Start Log_path.vi" Type="VI" URL="../Start Log_path.vi"/>
+			<Item Name="Vibration Data TD.ctl" Type="VI" URL="../Vibration Data TD.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
