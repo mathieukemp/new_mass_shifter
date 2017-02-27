@@ -18,7 +18,7 @@
 		<Item Name="General" Type="Folder">
 			<Item Name="Check Log (SubVI).vi" Type="VI" URL="../Check Log (SubVI).vi"/>
 			<Item Name="Data Hyway TD.ctl" Type="VI" URL="../Data Hyway TD.ctl"/>
-			<Item Name="Persistence_Main.vi" Type="VI" URL="../Persistence_Main.vi"/>
+			<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 			<Item Name="Que Attributes TD.ctl" Type="VI" URL="../Que Attributes TD.ctl"/>
 			<Item Name="Que Cluster TD.ctl" Type="VI" URL="../Que Cluster TD.ctl"/>
 			<Item Name="Que enum td.ctl" Type="VI" URL="../Que enum td.ctl"/>
