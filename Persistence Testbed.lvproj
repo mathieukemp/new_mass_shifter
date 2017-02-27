@@ -20,17 +20,22 @@
 			<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 			<Item Name="Queue Attributes TD.ctl" Type="VI" URL="../Queue Attributes TD.ctl"/>
 			<Item Name="Queue Cluster TD.ctl" Type="VI" URL="../Queue Cluster TD.ctl"/>
+			<Item Name="Queue Enum TD.ctl" Type="VI" URL="../Queue Enum TD.ctl"/>
 			<Item Name="Queue Reference.vi" Type="VI" URL="../Queue Reference.vi"/>
+			<Item Name="Start Log.vi" Type="VI" URL="../Start Log.vi"/>
+			<Item Name="Start Log_path.vi" Type="VI" URL="../Start Log_path.vi"/>
 		</Item>
 		<Item Name="Intrinsic Sensors" Type="Folder">
+			<Item Name="Intrinsic Data TD.ctl" Type="VI" URL="../Intrinsic Data TD.ctl"/>
 			<Item Name="Intrinsic Sensors.vi" Type="VI" URL="../Intrinsic Sensors.vi"/>
 		</Item>
 		<Item Name="Motor Command" Type="Folder">
-			<Item Name="Motor Command.vi" Type="VI" URL="../Motor Command.vi"/>
+			<Item Name="Motor Commands.vi" Type="VI" URL="../Motor Commands.vi"/>
 		</Item>
 		<Item Name="Vibration Sensors" Type="Folder">
 			<Item Name="Log Vibration Data.vi" Type="VI" URL="../Log Vibration Data.vi"/>
 			<Item Name="Plot Vibration.vi" Type="VI" URL="../Plot Vibration.vi"/>
+			<Item Name="Vibration Data TD.ctl" Type="VI" URL="../Vibration Data TD.ctl"/>
 			<Item Name="Vibration Sensors.vi" Type="VI" URL="../Vibration Sensors.vi"/>
 		</Item>
 		<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
@@ -110,11 +115,8 @@
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
 			</Item>
-			<Item Name="Intrinsic Data TD.ctl" Type="VI" URL="../Intrinsic Data TD.ctl"/>
+			<Item Name="Motor Command.vi" Type="VI" URL="../Motor Command.vi"/>
 			<Item Name="Que Enum td.ctl" Type="VI" URL="../Que Enum td.ctl"/>
-			<Item Name="Start Log.vi" Type="VI" URL="../Start Log.vi"/>
-			<Item Name="Start Log_path.vi" Type="VI" URL="../Start Log_path.vi"/>
-			<Item Name="Vibration Data TD.ctl" Type="VI" URL="../Vibration Data TD.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

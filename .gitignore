@@ -11,5 +11,9 @@
 # Executables
 *.exe
 
+# Labview internal files
+*.aliases
+*.lvlps
+
 # Metadata
 DATA_LOGS/*
