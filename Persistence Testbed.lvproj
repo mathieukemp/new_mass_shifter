@@ -13,7 +13,6 @@
 		<Item Name="External Sensors" Type="Folder">
 			<Item Name="External Data TD.ctl" Type="VI" URL="../External Data TD.ctl"/>
 			<Item Name="External Sensors.vi" Type="VI" URL="../External Sensors.vi"/>
-			<Item Name="Log External Data.vi" Type="VI" URL="../Log External Data.vi"/>
 		</Item>
 		<Item Name="General" Type="Folder">
 			<Item Name="Data Highway TD.ctl" Type="VI" URL="../Data Highway TD.ctl"/>
