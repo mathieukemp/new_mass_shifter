@@ -21,8 +21,6 @@
 			<Item Name="Queue Cluster TD.ctl" Type="VI" URL="../Queue Cluster TD.ctl"/>
 			<Item Name="Queue Enum TD.ctl" Type="VI" URL="../Queue Enum TD.ctl"/>
 			<Item Name="Queue Reference.vi" Type="VI" URL="../Queue Reference.vi"/>
-			<Item Name="Start Log.vi" Type="VI" URL="../Start Log.vi"/>
-			<Item Name="Start Log_path.vi" Type="VI" URL="../Start Log_path.vi"/>
 		</Item>
 		<Item Name="Intrinsic Sensors" Type="Folder">
 			<Item Name="Intrinsic Data TD.ctl" Type="VI" URL="../Intrinsic Data TD.ctl"/>
@@ -32,8 +30,6 @@
 			<Item Name="Motor Commands.vi" Type="VI" URL="../Motor Commands.vi"/>
 		</Item>
 		<Item Name="Vibration Sensors" Type="Folder">
-			<Item Name="Log Vibration Data.vi" Type="VI" URL="../Log Vibration Data.vi"/>
-			<Item Name="Plot Vibration.vi" Type="VI" URL="../Plot Vibration.vi"/>
 			<Item Name="Vibration Data TD.ctl" Type="VI" URL="../Vibration Data TD.ctl"/>
 			<Item Name="Vibration Sensors.vi" Type="VI" URL="../Vibration Sensors.vi"/>
 		</Item>
