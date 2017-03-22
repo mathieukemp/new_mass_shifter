@@ -11,7 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="External Sensors" Type="Folder">
-			<Item Name="External Data TD.ctl" Type="VI" URL="../External Data TD.ctl"/>
+			<Item Name="External data TD.ctl" Type="VI" URL="../External data TD.ctl"/>
 			<Item Name="External Sensors.vi" Type="VI" URL="../External Sensors.vi"/>
 		</Item>
 		<Item Name="General" Type="Folder">
@@ -23,14 +23,14 @@
 			<Item Name="Queue Reference.vi" Type="VI" URL="../Queue Reference.vi"/>
 		</Item>
 		<Item Name="Intrinsic Sensors" Type="Folder">
-			<Item Name="Intrinsic Data TD.ctl" Type="VI" URL="../Intrinsic Data TD.ctl"/>
+			<Item Name="Intrinsic data TD.ctl" Type="VI" URL="../Intrinsic data TD.ctl"/>
 			<Item Name="Intrinsic Sensors.vi" Type="VI" URL="../Intrinsic Sensors.vi"/>
 		</Item>
 		<Item Name="Motor Command" Type="Folder">
 			<Item Name="Motor Commands.vi" Type="VI" URL="../Motor Commands.vi"/>
 		</Item>
 		<Item Name="Vibration Sensors" Type="Folder">
-			<Item Name="Vibration Data TD.ctl" Type="VI" URL="../Vibration Data TD.ctl"/>
+			<Item Name="Vibration data TD.ctl" Type="VI" URL="../Vibration data TD.ctl"/>
 			<Item Name="Vibration Sensors.vi" Type="VI" URL="../Vibration Sensors.vi"/>
 		</Item>
 		<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
