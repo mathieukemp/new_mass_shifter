@@ -22,9 +22,9 @@
 			<Item Name="Queue Enum TD.ctl" Type="VI" URL="../Queue Enum TD.ctl"/>
 			<Item Name="Queue Reference.vi" Type="VI" URL="../Queue Reference.vi"/>
 		</Item>
-		<Item Name="Intrinsic Sensors" Type="Folder">
-			<Item Name="Intrinsic data TD.ctl" Type="VI" URL="../Intrinsic data TD.ctl"/>
-			<Item Name="Intrinsic Sensors.vi" Type="VI" URL="../Intrinsic Sensors.vi"/>
+		<Item Name="Internal Sensors" Type="Folder">
+			<Item Name="Internal data TD.ctl" Type="VI" URL="../Internal data TD.ctl"/>
+			<Item Name="Internal Sensors.vi" Type="VI" URL="../Internal Sensors.vi"/>
 		</Item>
 		<Item Name="Motor Command" Type="Folder">
 			<Item Name="Motor Commands.vi" Type="VI" URL="../Motor Commands.vi"/>
