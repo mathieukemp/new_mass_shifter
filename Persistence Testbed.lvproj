@@ -11,26 +11,22 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="External Sensors" Type="Folder">
-			<Item Name="External data TD.ctl" Type="VI" URL="../External data TD.ctl"/>
 			<Item Name="External Sensors.vi" Type="VI" URL="../External Sensors.vi"/>
 		</Item>
 		<Item Name="General" Type="Folder">
-			<Item Name="Data Highway TD.ctl" Type="VI" URL="../Data Highway TD.ctl"/>
+			<Item Name="List of States.ctl" Type="VI" URL="../List of States.ctl"/>
 			<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-			<Item Name="Queue Attributes TD.ctl" Type="VI" URL="../Queue Attributes TD.ctl"/>
-			<Item Name="Queue Cluster TD.ctl" Type="VI" URL="../Queue Cluster TD.ctl"/>
-			<Item Name="Queue Enum TD.ctl" Type="VI" URL="../Queue Enum TD.ctl"/>
-			<Item Name="Queue Reference.vi" Type="VI" URL="../Queue Reference.vi"/>
+			<Item Name="Message Format.ctl" Type="VI" URL="../Message Format.ctl"/>
+			<Item Name="Queue Cluster.ctl" Type="VI" URL="../Queue Cluster.ctl"/>
 		</Item>
 		<Item Name="Internal Sensors" Type="Folder">
-			<Item Name="Internal data TD.ctl" Type="VI" URL="../Internal data TD.ctl"/>
 			<Item Name="Internal Sensors.vi" Type="VI" URL="../Internal Sensors.vi"/>
+			<Item Name="State Data _ Internal.ctl" Type="VI" URL="../State Data _ Internal.ctl"/>
 		</Item>
 		<Item Name="Motor Command" Type="Folder">
 			<Item Name="Motor Commands.vi" Type="VI" URL="../Motor Commands.vi"/>
 		</Item>
 		<Item Name="Vibration Sensors" Type="Folder">
-			<Item Name="Vibration data TD.ctl" Type="VI" URL="../Vibration data TD.ctl"/>
 			<Item Name="Vibration Sensors.vi" Type="VI" URL="../Vibration Sensors.vi"/>
 		</Item>
 		<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
@@ -97,19 +93,17 @@
 				<Item Name="DAQmx Read (Raw 1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D U16).vi"/>
 				<Item Name="DAQmx Read (Raw 1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D U32).vi"/>
 				<Item Name="DAQmx Read.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read.vi"/>
+				<Item Name="DAQmx Start Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Start Task.vi"/>
+				<Item Name="DAQmx Stop Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Stop Task.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
-				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
-				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
-				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
-				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
-				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
 			</Item>
+			<Item Name="Queue Message.ctl" Type="VI" URL="../Queue Message.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
