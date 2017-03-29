@@ -17,19 +17,21 @@
 			<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 			<Item Name="Message Format.ctl" Type="VI" URL="../Message Format.ctl"/>
 			<Item Name="Queue Cluster.ctl" Type="VI" URL="../Queue Cluster.ctl"/>
-			<Item Name="States.ctl" Type="VI" URL="../States.ctl"/>
-			<Item Name="States_Logger.ctl" Type="VI" URL="../States_Logger.ctl"/>
+			<Item Name="StateDef_generic.ctl" Type="VI" URL="../StateDef_generic.ctl"/>
+			<Item Name="StateDef_logger.ctl" Type="VI" URL="../StateDef_logger.ctl"/>
 		</Item>
-		<Item Name="Motor Commands" Type="Folder">
-			<Item Name="Motor Commands.vi" Type="VI" URL="../Motor Commands.vi"/>
+		<Item Name="Pitchpack Commands" Type="Folder">
+			<Item Name="Pitchpack Commands.vi" Type="VI" URL="../Pitchpack Commands.vi"/>
 		</Item>
 		<Item Name="Vehicle" Type="Folder">
-			<Item Name="State Data_Vehicle.ctl" Type="VI" URL="../State Data_Vehicle.ctl"/>
+			<Item Name="StateData_Vehicle.ctl" Type="VI" URL="../StateData_Vehicle.ctl"/>
 			<Item Name="Vehicle.vi" Type="VI" URL="../Vehicle.vi"/>
 		</Item>
 		<Item Name="Vibration Sensors" Type="Folder">
 			<Item Name="Vibration Sensors.vi" Type="VI" URL="../Vibration Sensors.vi"/>
 		</Item>
+		<Item Name="GUI.vi" Type="VI" URL="../GUI.vi"/>
+		<Item Name="Logger.vi" Type="VI" URL="../Logger.vi"/>
 		<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 			<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
