@@ -14,10 +14,11 @@
 			<Item Name="External Sensors.vi" Type="VI" URL="../External Sensors.vi"/>
 		</Item>
 		<Item Name="General" Type="Folder">
-			<Item Name="List of States.ctl" Type="VI" URL="../List of States.ctl"/>
+			<Item Name="Logger States.ctl" Type="VI" URL="../Logger States.ctl"/>
 			<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 			<Item Name="Message Format.ctl" Type="VI" URL="../Message Format.ctl"/>
 			<Item Name="Queue Cluster.ctl" Type="VI" URL="../Queue Cluster.ctl"/>
+			<Item Name="States.ctl" Type="VI" URL="../States.ctl"/>
 		</Item>
 		<Item Name="Internal Sensors" Type="Folder">
 			<Item Name="Internal Sensors.vi" Type="VI" URL="../Internal Sensors.vi"/>
@@ -103,7 +104,6 @@
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
 			</Item>
-			<Item Name="Queue Message.ctl" Type="VI" URL="../Queue Message.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
