@@ -14,18 +14,18 @@
 			<Item Name="External Sensors.vi" Type="VI" URL="../External Sensors.vi"/>
 		</Item>
 		<Item Name="General" Type="Folder">
-			<Item Name="Logger States.ctl" Type="VI" URL="../Logger States.ctl"/>
 			<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 			<Item Name="Message Format.ctl" Type="VI" URL="../Message Format.ctl"/>
 			<Item Name="Queue Cluster.ctl" Type="VI" URL="../Queue Cluster.ctl"/>
 			<Item Name="States.ctl" Type="VI" URL="../States.ctl"/>
+			<Item Name="States_Logger.ctl" Type="VI" URL="../States_Logger.ctl"/>
 		</Item>
-		<Item Name="Internal Sensors" Type="Folder">
-			<Item Name="Internal Sensors.vi" Type="VI" URL="../Internal Sensors.vi"/>
-			<Item Name="State Data _ Internal.ctl" Type="VI" URL="../State Data _ Internal.ctl"/>
-		</Item>
-		<Item Name="Motor Command" Type="Folder">
+		<Item Name="Motor Commands" Type="Folder">
 			<Item Name="Motor Commands.vi" Type="VI" URL="../Motor Commands.vi"/>
+		</Item>
+		<Item Name="Vehicle" Type="Folder">
+			<Item Name="State Data_Vehicle.ctl" Type="VI" URL="../State Data_Vehicle.ctl"/>
+			<Item Name="Vehicle.vi" Type="VI" URL="../Vehicle.vi"/>
 		</Item>
 		<Item Name="Vibration Sensors" Type="Folder">
 			<Item Name="Vibration Sensors.vi" Type="VI" URL="../Vibration Sensors.vi"/>
