@@ -10,9 +10,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="External Sensors" Type="Folder">
-			<Item Name="External Sensors.vi" Type="VI" URL="../External Sensors.vi"/>
-		</Item>
 		<Item Name="General" Type="Folder">
 			<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 			<Item Name="Message Format.ctl" Type="VI" URL="../Message Format.ctl"/>
@@ -20,22 +17,22 @@
 			<Item Name="StateDef_generic.ctl" Type="VI" URL="../StateDef_generic.ctl"/>
 			<Item Name="StateDef_logger.ctl" Type="VI" URL="../StateDef_logger.ctl"/>
 		</Item>
-		<Item Name="Pitchpack Commands" Type="Folder">
-			<Item Name="Pitchpack Commands.vi" Type="VI" URL="../Pitchpack Commands.vi"/>
+		<Item Name="Tx and Rx Links" Type="Folder">
+			<Item Name="Receive Link.vi" Type="VI" URL="../Receive Link.vi"/>
+			<Item Name="Transmit Link.vi" Type="VI" URL="../Transmit Link.vi"/>
 		</Item>
-		<Item Name="Vehicle" Type="Folder">
+		<Item Name="Vehicle Data" Type="Folder">
 			<Item Name="StateData_Vehicle.ctl" Type="VI" URL="../StateData_Vehicle.ctl"/>
-			<Item Name="Vehicle.vi" Type="VI" URL="../Vehicle.vi"/>
+			<Item Name="Vehicle Data.vi" Type="VI" URL="../Vehicle Data.vi"/>
 		</Item>
-		<Item Name="Vibration Sensors" Type="Folder">
-			<Item Name="Vibration Sensors.vi" Type="VI" URL="../Vibration Sensors.vi"/>
-		</Item>
+		<Item Name="External Data.vi" Type="VI" URL="../External Data.vi"/>
 		<Item Name="GUI.vi" Type="VI" URL="../GUI.vi"/>
 		<Item Name="Logger.vi" Type="VI" URL="../Logger.vi"/>
 		<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 			<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Vibration Data.vi" Type="VI" URL="../Vibration Data.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
